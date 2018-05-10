@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    p {
+        width: 25%;
+        text-align: center;
+    }
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    background: #eee;
+    li {
+        width: 100%;
+        transition: transform .3s linear;
+        text-align: center;
+        line-height: 400px;
+        flex-shrink: 0;
+    }
+}
